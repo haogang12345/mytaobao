@@ -1,0 +1,124 @@
+*{margin: 0;padding: 0;}
+html,body{
+	height: 100%;
+}
+html{
+	font-size: 31.25vw;
+}
+body{
+	display: flex;
+	flex-direction: column;
+	font-size: 16px;
+	background: #f4f4f4;
+}
+header{
+	height: 0.45rem;
+	border-bottom: #ababab;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0.12rem;
+	line-height: 0.45rem;
+	background: #fafafa;
+	box-sizing: border-box;
+	margin-bottom: 0.15rem;
+}
+header i{
+	font-size:0.2rem ;
+	color: #5f646e;
+}
+header p{
+	font-size: 0.17rem;
+	color: #5f646e;
+}
+header a{
+	font-size: 0.13rem;
+	color: #5f646e;
+	text-decoration: none;
+}
+section{
+	width: 100%;
+	background: #fff;
+	padding-left: 0.15rem;
+	border-top: 1px solid #aaaaaa;
+	border-bottom: 1px solid #aaaaaa;
+}
+section nav{
+	display: flex;
+	/* flex: 1; */
+	justify-content: space-between;
+}
+section nav p{
+	height: 0.45rem;
+	width: 0.95rem;
+	font-size: 0.13rem;
+	box-sizing: border-box;
+	line-height: 0.45rem;
+	color: #6c6c6c;
+}
+section nav i{
+	height: 0.45rem;
+	width: 0.3rem;
+	position: absolute;
+	line-height: 0.45rem;
+	right: 0;
+}
+section input{
+	width: calc(100% - 0.75rem);
+	border: none;
+	height: 0.45rem;
+	outline: none;
+	font-size: 0.13rem;
+	box-sizing: border-box;
+	color: #dddddd;
+}
+section nav:first-child {
+	border-bottom: 1px solid #aaaaaa;
+}
+main{
+	width: 100%;
+	display: flex;
+}
+main input{
+	height: 0.5rem;
+	width: 3rem;
+	background: #ff5000;
+	margin: 0 auto;
+	border: none;
+	border-radius: 0.05rem;
+	margin-top: 0.12rem;
+	line-height: 0.5rem;
+	font-size: 0.18rem;
+	text-align: center;
+	color: #ff854d;
+}
+div{
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0.1rem;
+	padding-top: 0.2rem;
+}
+div a{
+	font-size: 0.13rem;
+	color: #5f646e;
+	text-decoration: none;
+}
+footer{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 0.4rem;
+}
+footer p{
+	width: 1.05rem;
+	height: 0.32rem;
+	border: 1px solid #ff5000;
+	color: #ff5000;
+	line-height: 0.32rem;
+	font-size: 0.15rem;
+	text-align: center;
+	border-radius: 0.05rem;
+}
+
+
+
+
